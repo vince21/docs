@@ -14,17 +14,7 @@
     "href": "https://terrakotta.ai/"
   },
   "navigation": {
-    "tabs": [
-      {
-        "tab": "API",
-        "groups": [
-          {
-            "group": "Signals",
-            "pages": ["api/signals/create"]
-          }
-        ]
-      }
-    ]
+      "pages": ["signals-api-endpoint"]
   },
   "navbar": {
     "links": [
