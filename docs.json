@@ -14,7 +14,7 @@
     "href": "https://terrakotta.ai/"
   },
   "navigation": {
-      "pages": ["signals-api-endpoint"]
+      "pages": ["signals-api-endpoint", "mcp"]
   },
   "navbar": {
     "links": [

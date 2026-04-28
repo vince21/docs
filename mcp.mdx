@@ -1,0 +1,31 @@
+---
+title: "MCP"
+---
+
+The Terrakotta MCP server lets AI clients call Terrakotta directly — searching properties, managing lead lists, pulling call insights, and more — without you wiring up the API by hand.
+
+**Server URL:** `https://api.terrakotta.ai/mcp`
+
+## Claude
+
+<Tabs>
+  <Tab title="Claude.ai (web & desktop)">
+    1. Open **Settings → Connectors**.
+    2. Click **Add custom connector**.
+    3. Enter:
+       - **Name:** `Terrakotta`
+       - **URL:** `https://api.terrakotta.ai/mcp`
+    4. Click **Add**, then complete the OAuth sign-in when prompted.
+
+    Terrakotta tools will now appear in any new chat.
+  </Tab>
+  <Tab title="Claude Code">
+    Run this from your terminal:
+
+    ```bash
+        claude mcp add --transport http terrakotta https://api.terrakotta.ai/mcp
+    ```
+
+    Then start Claude Code and run `/mcp` to authenticate.
+  </Tab>
+</Tabs>
