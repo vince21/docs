@@ -12,7 +12,7 @@ POST
 
 ### Endpoint
 
-/signals
+https://api.terrakotta.ai/partner-signals
 
 ### Headers
 
@@ -23,18 +23,8 @@ Authorization: Bearer YOUR_API_KEY
 ### Body
 
 ```json
-  {
-    "email": "user@company.com",
-    "company": "Acme Corp",
-    "signal": {
-      "type": "tenant_expansion",
-      "confidence": 0.87,
-      "source": "broker_call",
-      "details": {
-        "location": "Seattle",
-        "sqft": 15000,
-        "timeline": "Q3"
-      }
-    }
-  }
+{
+  "userEmail": "email of the user to receive the signal",
+  "body": "customizable based on partner specifications",
+}
 ```
