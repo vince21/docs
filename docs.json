@@ -16,15 +16,6 @@
   "navigation": {
     "tabs": [
       {
-        "tab": "Docs",
-        "groups": [
-          {
-            "group": "Get Started",
-            "pages": ["introduction", "read", "write"]
-          }
-        ]
-      },
-      {
         "tab": "API",
         "groups": [
           {
