@@ -26,6 +26,12 @@
     "name": "Terrakotta",
     "url": "https://terrakotta.ai/"
   },
+  "tabs": [
+    {
+      "name": "API Reference",
+      "url": "api"
+    }
+  ],
   "navigation": [
     {
       "group": "Get Started",
@@ -33,6 +39,12 @@
         "introduction",
         "read",
         "write"
+      ]
+    },
+    {
+      "group": "Signals",
+      "pages": [
+        "api/signals/create"
       ]
     }
   ]
